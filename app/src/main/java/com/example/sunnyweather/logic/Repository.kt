@@ -41,7 +41,7 @@ object Repository {
     }
 
     //ceshi
-    //测试123
+    //测试123456654
     private fun <T> fire(context: CoroutineContext, block: suspend () -> Result<T>) =
         liveData<Result<T>>(context) {
             val result = try {
