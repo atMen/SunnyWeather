@@ -39,6 +39,8 @@ object Repository {
             }
         }
     }
+
+    //ceshi
     private fun <T> fire(context: CoroutineContext, block: suspend () -> Result<T>) =
         liveData<Result<T>>(context) {
             val result = try {
